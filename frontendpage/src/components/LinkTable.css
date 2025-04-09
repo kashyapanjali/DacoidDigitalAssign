@@ -1,0 +1,114 @@
+/* LinkTable.css */
+.link-table-container {
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.link-table-container h2 {
+	margin-bottom: 15px;
+	color: #2d3748;
+	font-size: 18px;
+}
+
+.no-links {
+	text-align: center;
+	padding: 30px;
+	color: #718096;
+}
+
+.table-responsive {
+	overflow-x: auto;
+}
+
+.link-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.link-table th {
+	text-align: left;
+	padding: 12px 15px;
+	background-color: #f7fafc;
+	color: #4a5568;
+	font-weight: 600;
+	border-bottom: 1px solid #e2e8f0;
+}
+
+.link-table td {
+	padding: 12px 15px;
+	border-bottom: 1px solid #edf2f7;
+	color: #2d3748;
+}
+
+.link-table tr:hover {
+	background-color: #f7fafc;
+	cursor: pointer;
+}
+
+.selected-row {
+	background-color: #ebf5ff !important;
+}
+
+.url-cell {
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.status-badge {
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.status-badge.active {
+	background-color: #c6f6d5;
+	color: #22543d;
+}
+
+.status-badge.expired {
+	background-color: #fed7d7;
+	color: #822727;
+}
+
+.qr-button {
+	background-color: #4299e1;
+	color: white;
+	padding: 6px 12px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.qr-button:hover {
+	background-color: #3182ce;
+}
+
+.qr-popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	z-index: 10;
+}
+
+.close-qr-button {
+	background-color: #e2e8f0;
+	color: #4a5568;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.close-qr-button:hover {
+	background-color: #cbd5e0;
+}
